@@ -22,6 +22,10 @@ p {
     font-weight: bolder;
 }
 
+.ms_bg_g {
+    background-color: #F3F5F9;
+}
+
 /* header */
 
 #jumbotron {
@@ -47,6 +51,10 @@ p {
     color: #004AFF;
 }
 
+#form_container {
+    padding: 40px 10px;
+}
+
 .ms_jumbotron-input {
     margin-bottom: 5px;
 }
@@ -68,7 +76,34 @@ p {
     background-color: white;
 }
 
+span a {
+    color: #004AFF;
+    text-decoration: underline;
+}
 
+/* logo section */
+
+#logo_section p{
+    text-transform: uppercase;
+    font-size: 15px;
+    padding-top:40px;
+    color: grey;
+}
+
+#logo_section img {
+    text-align: left;
+    height: 150px;
+    width: 100%;
+}
+
+#logo_section a {
+    font-size: 18px;
+    color: #004AFF;
+}
+#logo_section .fa-chevron-right {
+    padding-left: 10px;
+    font-size: 13px;
+}
 
 
 
