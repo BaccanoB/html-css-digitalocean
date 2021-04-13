@@ -8,7 +8,7 @@ body {
 
 p {
     font-size: 20px;
-    color: #B5BBC8;
+    color: grey;
 }
 
 .cl_dark_blu {
@@ -73,6 +73,9 @@ nav li {
     background-size: cover;
     background-position: center;
 }
+#jumbotron p {
+    color: #B5BBC8;
+}
 
 #jumbotron_form {
     padding: 10px 5px;
@@ -120,15 +123,17 @@ span a {
 
 /* logo section */
 
+#logo_section {
+    padding: 20px 0;
+}
+
 #logo_section p{
     text-transform: uppercase;
     font-size: 15px;
-    padding-top:40px;
-    color: grey;
+    padding-top:20px;
 }
 
 #logo_section img {
-    text-align: left;
     height: 150px;
     width: 100%;
 }
@@ -142,11 +147,33 @@ span a {
     font-size: 13px;
 }
 
-
-
-
-
 /* main */
+
+#deploy_section {
+    padding: 30px 0;
+}
+
+#deploy_list {
+    padding: 10px 0;
+    border-left:2px solid lightgrey;
+}
+
+#deploy_list ul {
+    padding-left: 10px;
+}
+
+#deploy_list li {
+    list-style: none;
+    padding: 10px 0;
+    color: grey;
+}
+
+#deploy_icon {
+    padding: 30px 0;
+}
+#deploy_icon h4 {
+    padding-top: 10px;
+}
 /* footer */
 
 /* media */
@@ -159,4 +186,18 @@ span a {
   .nav_ul {
     display: block;
   }
+
+  
+#deploy_text {
+    width: 80%;
+    margin: 0 auto;
+}
+
+  #deploy_list {
+    margin: 35px 100px;
+}
+
+  #deploy_list ul {
+    padding-left: 40px;
+}
 }
