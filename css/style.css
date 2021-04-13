@@ -57,6 +57,10 @@ nav li {
     border:2px solid #7CB5FD;    
 }
 
+.nav_ul {
+    display: none;
+}
+
 
 
 /* jumbotron */
@@ -150,5 +154,9 @@ span a {
 @media screen and (min-width: 992px) {
   #hamburgher_icon {
       display: none;
+  }
+
+  .nav_ul {
+    display: block;
   }
 }
