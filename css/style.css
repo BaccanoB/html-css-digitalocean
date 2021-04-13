@@ -1,0 +1,78 @@
+/* debug */
+
+nav {
+    height: 80px;
+}
+
+/* common */
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+p {
+    font-size: 20px;
+    color: #B5BBC8;
+}
+
+.cl_dark_blu {
+    color: #011D4C;
+}
+
+.fw_b {
+    font-weight: bolder;
+}
+
+/* header */
+
+#jumbotron {
+    padding: 50px 0;
+    /* height: 500px; */
+    color: white;
+    background-image: url(../img/bg-banner-home.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+#jumbotron_form {
+    padding: 10px 5px;
+    border-radius: 10px;
+    background-color: white;
+}
+#jumbotron_form h3 {
+    color: #011D4C;
+    font-weight: bolder;
+}
+#jumbotron_form >a {
+    font-size: 24px;
+    color: #004AFF;
+}
+
+.ms_jumbotron-input {
+    margin-bottom: 5px;
+}
+
+#blu_btn {
+    width: 100%;
+    background-color: #579AFF;
+}
+
+#google_btn {
+    width: 100%;
+    margin: 10px 0;
+    background-image: url(../img/google-icon.png);
+    background-size: 6%;
+    background-repeat: no-repeat;
+    background-position: 2% 50%;
+    box-shadow: 2px 2px rgba(0, 0, 0, 0.2);
+    color: rgb(75, 73, 73);
+    background-color: white;
+}
+
+
+
+
+
+
+
+/* main */
+/* footer */
