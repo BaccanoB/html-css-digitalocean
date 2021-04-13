@@ -1,8 +1,5 @@
 /* debug */
 
-nav {
-    height: 80px;
-}
 
 /* common */
 body {
@@ -26,7 +23,43 @@ p {
     background-color: #F3F5F9;
 }
 
+.va_m {
+    vertical-align: middle;
+}
+
 /* header */
+
+/* navbar */
+
+nav {
+    height: 80px;
+    line-height: 80px;
+}
+
+nav img {
+    width: 100%;
+}
+
+.fa-bars {
+    font-size: 20px;
+    color: #7CB5FD;
+}
+
+nav li {
+    display: inline-block;
+    list-style: none;
+    padding: 5px;
+}
+
+#sign_up {
+    padding: 5px 9px;
+    color: #7CB5FD;
+    border:2px solid #7CB5FD;    
+}
+
+
+
+/* jumbotron */
 
 #jumbotron {
     padding: 50px 0;
@@ -111,3 +144,11 @@ span a {
 
 /* main */
 /* footer */
+
+/* media */
+
+@media screen and (min-width: 992px) {
+  #hamburgher_icon {
+      display: none;
+  }
+}
