@@ -14,7 +14,7 @@ h2 {
 
 p {
     font-size: 20px;
-    color: grey;
+    color: #586686;
 }
 
 .cl_dark_blu {
@@ -249,12 +249,38 @@ figcaption {
 }
 /* footer */
 
+/* footer top */
+#footer_top {
+    padding: 60px;
+    background-image: linear-gradient(to bottom, #0041BB, #00209B);
+}
+#footer_top h2 {
+    padding: 10px 0;
+    color: white;
+}
+#footer_top a {
+    color: #579AFF;
+}
+
 /* media */
 
 @media screen and (min-width: 992px) {
+
+    h1 {
+        font-size: 60px;
+    }
+
+    h2{
+        font-size: 40px;
+    }
+
+    p {
+        font-size: 18px;
+    }
+
     #hamburgher_icon {
       display: none;
-  }
+    }
 
   
     #deploy_text {
@@ -279,6 +305,14 @@ figcaption {
     font-size: 18px;
     padding: 10px 0 10px 0;
     }
+
+    #featured p,
+    #deploy_icon p{
+        font-size: 15px;
+    }
+    
+
+
 
 
 }
