@@ -73,6 +73,16 @@ nav li {
     color: #7CB5FD;
     border:2px solid #7CB5FD;    
 }
+#sign_up:hover {
+    color: white;
+    background-color: #7CB5FD;
+    transition: 0.5s;
+}
+
+nav li a:hover {
+    color: #7CB5FD;
+    text-decoration: none;
+}
 
 
 
@@ -116,6 +126,11 @@ nav li {
     width: 100%;
     background-color: #579AFF;
 }
+#blu_btn:hover {
+    color: white;
+    background-color: #006AFF;
+    transition: 0.5s;
+}
 
 #google_btn {
     width: 100%;
@@ -128,11 +143,20 @@ nav li {
     color: rgb(75, 73, 73);
     background-color: white;
 }
+#google_btn:hover {
+    box-shadow:2px 2px 2px 2px rgba(0, 0, 0, 0.2);
+}
 
 span a {
     color: #004AFF;
     text-decoration: underline;
 }
+span a:hover {
+    background-color: rgb(200, 227, 245);
+    padding:2px;
+    border-radius: 10px;
+    text-decoration:none;
+} 
 
 /* logo section */
 
@@ -363,7 +387,7 @@ figcaption {
 
 /* footer top */
 #footer_top {
-    padding: 60px;
+    padding: 40px;
     background-image: linear-gradient(to bottom, #0041BB, #00209B);
 }
 #footer_top h2 {
@@ -372,6 +396,10 @@ figcaption {
 }
 #footer_top a {
     color: #579AFF;
+}
+#footer_top a:hover {
+    background-color: rgba(219, 216, 216, 0.4);
+    transition: 0.5s;
 }
 
 /* media */
