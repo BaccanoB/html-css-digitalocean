@@ -6,6 +6,12 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
+h2 {
+    color: #011D4C;
+    font-weight: bolder;
+    text-align: center;
+}
+
 p {
     font-size: 20px;
     color: grey;
@@ -32,8 +38,14 @@ p {
 /* navbar */
 
 nav {
+    width: 100%;
     height: 80px;
     line-height: 80px;
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 2;
+    background-color: white;
 }
 
 nav img {
@@ -57,17 +69,13 @@ nav li {
     border:2px solid #7CB5FD;    
 }
 
-.nav_ul {
-    display: none;
-}
-
 
 
 /* jumbotron */
 
 #jumbotron {
     padding: 50px 0;
-    /* height: 500px; */
+    margin-top:80px;
     color: white;
     background-image: url(../img/bg-banner-home.jpg);
     background-size: cover;
@@ -149,6 +157,8 @@ span a {
 
 /* main */
 
+/* deploy */
+
 #deploy_section {
     padding: 30px 0;
 }
@@ -174,30 +184,78 @@ span a {
 #deploy_icon h4 {
     padding-top: 10px;
 }
+
+/* designed */
+
+#designed {
+    padding: 50px 0;
+}
+
+#designed_text {
+    padding-bottom: 20px;
+}
+
+#designed_img {
+    width: 90%;
+    padding: 70px 0 10px 0;
+    margin: 0 auto;
+}
+
+#designed_img img {
+    width: 80%;
+}
+
+#designed_img .fas{
+    font-size: 40px;
+    padding: 0 10px;
+    font-weight: bolder;
+}
+.fa-chevron-left{
+    color: #99A2B6;
+}
+
+figcaption {
+    padding: 10px 0 40px 0;
+    font-size: 15px;
+}
+
+.fa-circle {
+    font-size: 13px;
+    color: #006AFF;
+}
+
 /* footer */
 
 /* media */
 
 @media screen and (min-width: 992px) {
-  #hamburgher_icon {
+    #hamburgher_icon {
       display: none;
   }
 
-  .nav_ul {
-    display: block;
-  }
-
   
-#deploy_text {
+    #deploy_text {
     width: 80%;
     margin: 0 auto;
-}
+    }
 
-  #deploy_list {
+    #deploy_list {
     margin: 35px 100px;
-}
+    }
 
-  #deploy_list ul {
+    #deploy_list ul {
     padding-left: 40px;
-}
+    }
+
+    #designed_img {
+        width: 60%;
+    }
+
+    
+    figcaption {
+    font-size: 18px;
+    padding: 10px 0 10px 0;
+    }
+
+
 }
