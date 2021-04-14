@@ -224,6 +224,29 @@ figcaption {
     color: #006AFF;
 }
 
+/* feautured */
+
+#featured {
+    padding: 30px 0;
+}
+
+#feauterd_icon {
+    padding: 30px 0;
+}
+#feauterd_icon img {
+    padding-top: 30px;
+}
+
+#featured a,
+#featured i {
+    color: #006AFF;
+}
+#featured a{
+    font-size: 18px;
+}
+#featured i {
+    font-size: 10px;
+}
 /* footer */
 
 /* media */
