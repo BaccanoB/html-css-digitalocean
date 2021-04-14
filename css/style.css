@@ -239,7 +239,7 @@ figcaption {
 
 #featured a,
 #featured i {
-    color: #006AFF;
+    color: #328DFD;
 }
 #featured a{
     font-size: 18px;
@@ -247,6 +247,71 @@ figcaption {
 #featured i {
     font-size: 10px;
 }
+
+/* development */
+
+#development {
+    position: relative;
+    padding: 50px 0;
+}
+#development a {
+    color: #328DFD;
+}
+#development i {
+    font-size: 10px;
+}
+
+ #development > i {
+     position: absolute;
+     font-size: 40px;
+ }
+
+ #development .fa-chevron-left {
+     top: 50%;
+     transform: translate(-50%);
+ }
+ #development .fa-chevron-right {
+    top: 50%;
+    transform: translate(-50%);
+}
+
+#rockerbox {
+    position: relative;
+    display: inline-block;
+    width: 90%;
+    height: 300px;
+    margin-top: 50px;
+}
+
+#rockerbox_container{
+    width: 80%;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    padding-bottom: 40px;
+    background-color: white;
+}
+
+#text_rocketbox {
+    padding-bottom: 40px;
+}
+
+#rockerbox_container img {
+    width: 100%;
+    padding: 50px 10px;
+}
+
+#founder {
+    color: #586686;
+}
+
+#circle_container {
+    padding-top: 40px;
+    margin-top: 50px;
+}
+
+
 /* footer */
 
 /* footer top */
@@ -297,7 +362,7 @@ figcaption {
     }
 
     #designed_img {
-        width: 60%;
+        width: 50%;
     }
 
     
@@ -310,8 +375,16 @@ figcaption {
     #deploy_icon p{
         font-size: 15px;
     }
-    
 
+    #rockerbox {
+        width: 50%;
+    }
+    
+    #rockerbox_container img {
+        width: 45%;
+        padding: 50px 10px;
+    }
+    
 
 
 
