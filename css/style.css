@@ -58,7 +58,23 @@ nav li,
     list-style: none;
 }
 
+#jumbotron_form > a,
+span a,
+#logo_section a {
+    color: #004AFF;
+}
 
+#featured a,
+#featured i,
+#development a  {
+    color: #328DFD;
+}
+
+.clearfix {
+    content: "";
+    display: table;
+    clear: both;
+}
 
 /* header */
 
@@ -66,7 +82,7 @@ nav li,
 
 nav {
     height: 80px;
-    line-height: 80px;
+    line-height: 75px;
     position: fixed;
     left: 0;
     top: 0;
@@ -78,14 +94,19 @@ nav img {
     width: 100%;
 }
 
+nav ul {
+    padding-left: 0;
+    margin-bottom: 0;
+}
+
 .fa-bars,
 #sign_up,
-nav li a:hover {
+nav li a:hover:not(.drop_p)  {
     color: #7CB5FD;
 }
 
 nav li {
-    padding: 5px;
+    padding: 0 5px 0 5px;
 }
 
 #sign_up {
@@ -98,21 +119,51 @@ nav li {
     transition: 0.5s;
 }
 
-nav li a:hover {
+nav li:hover {
+    border-bottom: 3px solid #7CB5FD;
+}
+nav li a:hover{
     text-decoration: none;
 }
 
-#jumbotron_form > a,
-span a,
-#logo_section a {
-    color: #004AFF;
+.ms_btn {
+    border: none;
+}
+.ms_btn:hover {
+    background-color: white;
+    color: #7CB5FD;
 }
 
-#featured a,
-#featured i,
-#development a  {
-    color: #328DFD;
+/* dropdown */
+
+.ms_dropdown-menu {
+    min-width: 300px;
 }
+
+.ms_dropdown-menu li {
+    display: block;
+    line-height: normal;
+    margin-bottom: 20px;
+}
+.ms_dropdown-menu li:hover{
+    border: none;
+}
+.ms_dropdown-menu li img {
+    width: 20%;
+    float: left;
+    margin-right: 10px;
+}
+.drop_title {
+    display: inline-block;
+    float: left;
+    margin: 5px 0;
+    font-size: 18px;
+} 
+.drop_p {
+    float: left;
+    font-size: 15px;
+}
+
 
 /* jumbotron */
 
@@ -492,7 +543,7 @@ figcaption {
     width: 250px;
     position: relative;
     border-radius: 5px;
-    margin-left: 10px;
+    margin-right: 20px;
     display: inline-block;
     padding: 10px;
 
