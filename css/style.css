@@ -463,6 +463,71 @@ figcaption {
     color: #A5ACBC;
 }
 
+/* shark */
+
+#shark_fixed {
+    position: fixed;
+    bottom: 10%;
+    right: 5%;
+    z-index: 3;
+}
+
+#shark_container {
+    width: 70px;
+    height: 70px;
+    position: relative;
+    vertical-align: middle;
+    line-height: 70px;
+    border-radius: 10px;
+    display: inline-block;
+    background-color: #006AFF;
+}
+
+#shark {
+    width: 100%;
+}
+
+#text_shark {
+    vertical-align: middle;
+    width: 250px;
+    position: relative;
+    border-radius: 5px;
+    margin-left: 10px;
+    display: inline-block;
+    padding: 10px;
+
+}
+#text_shark p {
+    font-size: 14px; 
+}
+#text_shark i {
+    position: absolute;
+    left: 100%;
+    bottom: 15%;
+    font-size: 18px;
+} 
+
+#number {
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 68%;
+    left: 66%;
+}
+#number > div {
+    width: 25px;
+    height: 25px;
+    line-height: 25px;
+    border-radius: 50%;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    background-color: red;
+}
+
 
 /* media */
 
@@ -533,8 +598,4 @@ figcaption {
         width: 45%;
         padding: 50px 10px;
     }
-    
-
-  
-
 }
